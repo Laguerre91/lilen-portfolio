@@ -17,7 +17,7 @@ export default function Hero() {
       </div>
 
       <div className={styles.content}>
-        <p className={styles.eyebrow}>Videógrafa</p>
+        <p className={styles.eyebrow}>Realizadora Audiovisual</p>
         <h1 className={styles.title}>
           Lilen<br />
           <em>Barberis</em>
