@@ -2,12 +2,20 @@ export type Project = {
     id: string
     title: string
     description: string | null
-    category: string | null
+    category_id: string | null
+    category?: Category
     video_url: string | null
     thumbnail_url: string | null
     tags: string[] 
     published: boolean
     order_index: number
+    created_at: string
+    updated_at: string
+}
+
+export type Category = {
+    id: string
+    name: string
     created_at: string
     updated_at: string
 }
